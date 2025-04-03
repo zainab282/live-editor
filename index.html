@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodePen Clone</title>
+    <link rel="stylesheet" href="indeex.css">
+   <script src="indeex.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <label>HTML</label>
+            <textarea id="html" placeholder="Write HTML here..."></textarea>
+            <label>CSS</label>
+            <textarea id="css" placeholder="Write CSS here..."></textarea>
+            <label>JavaScript</label>
+            <textarea id="js" placeholder="Write JavaScript here..."></textarea>
+            <button onclick="runCode()">Run Code</button>
+        </div>
+        <div class="output-container">
+            <label>Output</label>
+            <div class="output-box">
+                <iframe id="output"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
